@@ -1,4 +1,5 @@
 require 'pry'
+
 class Ecosystem
   attr_reader :board, :list_of_life
 
@@ -48,9 +49,5 @@ private
 
   def height
     @board.size
-  end
-
-  class Life
-    # x, y
   end
 end
